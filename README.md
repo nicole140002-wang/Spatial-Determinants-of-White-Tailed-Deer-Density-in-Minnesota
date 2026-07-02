@@ -36,7 +36,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 5) CRS: EPSG:26915
 
 ## Data Sources
-<p align = "center">
+
 | Component            | Source               | Description                  |
 | -------------------- | -------------------- | ---------------------------- |
 | Deer Density (2021)  | Minnesota DNR        | Response variable            |
@@ -46,7 +46,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 | Hunting Regulation   | MNDNR                | Bag limit policy variable    |
 | Administrative Units | Minnesota GIS Portal | DPA / DMU boundaries         |
 
-</p>
+
 <p align="center"> Spatial distribution of white-tailed deer density across DPAs in 2021</p> 
 
 <p align="center">
