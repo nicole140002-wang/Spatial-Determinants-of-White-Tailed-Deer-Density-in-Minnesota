@@ -43,7 +43,8 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 | Hunting Regulation   | MNDNR                | Bag limit policy variable    |
 | Administrative Units | Minnesota GIS Portal | DPA / DMU boundaries         |
 
-**Spatial distribution of white-tailed deer density across DPAs in 2021**
+**Spatial distribution of white-tailed deer density across DPAs in 2021**  
+
 <img width="300" height="300" alt="deer_density" src="https://github.com/user-attachments/assets/e82896c4-d8a6-4bb4-8302-de2386996af5" />
 
 
