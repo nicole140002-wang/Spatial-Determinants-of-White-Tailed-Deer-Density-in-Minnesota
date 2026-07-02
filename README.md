@@ -33,7 +33,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 5) CRS: EPSG:26915
 
 ## Data Sources
-
+<p align="center">
 | Component            | Source               | Description                  |
 | -------------------- | -------------------- | ---------------------------- |
 | Deer Density (2021)  | Minnesota DNR        | Response variable            |
@@ -44,7 +44,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 | Administrative Units | Minnesota GIS Portal | DPA / DMU boundaries         |
 
 <img width="300" height="300" alt="deer_density" src="https://github.com/user-attachments/assets/e82896c4-d8a6-4bb4-8302-de2386996af5" />
-
+</p>
 
 ## Feature Engineering
 #### 1. Habitat Suitability Index (HSI)
