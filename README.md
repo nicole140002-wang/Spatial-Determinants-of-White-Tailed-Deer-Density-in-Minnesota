@@ -36,7 +36,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 5) CRS: EPSG:26915
 
 ## Data Sources
-
+<p align = "center">
 | Component            | Source               | Description                  |
 | -------------------- | -------------------- | ---------------------------- |
 | Deer Density (2021)  | Minnesota DNR        | Response variable            |
@@ -46,6 +46,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 | Hunting Regulation   | MNDNR                | Bag limit policy variable    |
 | Administrative Units | Minnesota GIS Portal | DPA / DMU boundaries         |
 
+</p>
 <p align="center"> Spatial distribution of white-tailed deer density across DPAs in 2021</p> 
 
 <p align="center">
@@ -86,5 +87,35 @@ Hunting bag limits (ordinal variable 1–6)
 <img width="300" height="300" alt="local coefficients" src="https://github.com/user-attachments/assets/29b72642-f9d6-4fbb-aaeb-7b9dc746ed71" />
 </p>
 
-## Spatial Regression Models
+## Spatial Regression Models 
 
+#### 1. OLS (Global Model)  
+1) Baseline linear regression
+2) Assumes spatial stationarity
+
+#### 2. GWR (Local Variation Model)
+1) Allows spatially varying coefficients
+2) Single bandwidth for all variables
+
+#### 3. MGWR (Multi-Scale Model)
+1) Each variable has its own spatial scale
+2) Captures hierarchical spatial processes
+
+## Model Comparison (Key Results)
+#### 1. DPA Scale (Fine Resolution)
+1) OLS: R² ≈ 0.63 → Significant residual spatial autocorrelation
+2) GWR: R² ≈ 0.72 → Reduced spatial clustering in residuals
+3) MGWR: R² ≈ 0.81 (best model) → No significant residual spatial autocorrelation
+
+**Key Finding:**
+Road distance = local-scale driver
+Habitat & snow = global-scale drivers
+Hunting pressure = broad-scale management driver
+
+#### 2. DMU Scale (Coarse Resolution)
+1) OLS already performs well (R² ≈ 0.78)
+2) Spatial heterogeneity largely smoothed
+3) MGWR adds limited improvement
+
+**Key Insight:**
+Spatial aggregation reduces detectable local human disturbance effects (MAUP effect)
