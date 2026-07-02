@@ -8,10 +8,10 @@ It compares how ecological, climatic, and anthropogenic factors influence deer d
 ·**DPA (Deer Permit Areas, fine-scale ~106 units)**   
 ·**DMU (Deer Management Units, coarse-scale ~23 units)**  
    
-<p align="center">
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/b77acdd9-b027-485b-ab96-e6e49c46ac0b" />  
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/b77acdd9-b027-485b-ab96-e6e49c46ac0b" />    
 <img width="300" height="300" alt="dmu" src="https://github.com/user-attachments/assets/2e4fa0de-a9dd-451b-a438-d28b918af6e5" />
-</p>
+
 
 The study highlights how spatial scale (MAUP) and spatial non-stationarity affect ecological interpretation and wildlife management decisions.
 
@@ -33,7 +33,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 5) CRS: EPSG:26915
 
 ## Data Sources
-<p align="center">
+
 | Component            | Source               | Description                  |
 | -------------------- | -------------------- | ---------------------------- |
 | Deer Density (2021)  | Minnesota DNR        | Response variable            |
@@ -44,7 +44,7 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 | Administrative Units | Minnesota GIS Portal | DPA / DMU boundaries         |
 
 <img width="300" height="300" alt="deer_density" src="https://github.com/user-attachments/assets/e82896c4-d8a6-4bb4-8302-de2386996af5" />
-</p>
+
 
 ## Feature Engineering
 #### 1. Habitat Suitability Index (HSI)
