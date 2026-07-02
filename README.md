@@ -84,7 +84,10 @@ Hunting bag limits (ordinal variable 1–6)
 
 <p align="center"> Local GWR coefficients for four predictors at the DPA scale </p>
 <p align="center"> 
-<img width="300" height="300" alt="local coefficients" src="https://github.com/user-attachments/assets/29b72642-f9d6-4fbb-aaeb-7b9dc746ed71" />
+<img width="300" height="300" alt="local coefficients" src="https://github.com/user-attachments/assets/29b72642-f9d6-4fbb-aaeb-7b9dc746ed71" />  
+
+<img width="300" height="300" alt="Local MGWR coefficients" src="https://github.com/user-attachments/assets/1d052a3e-27f1-415b-b7d0-4e01db6f5042" />
+
 </p>
 
 ## Spatial Regression Models 
@@ -119,3 +122,31 @@ Hunting pressure = broad-scale management driver
 
 **Key Insight:**
 Spatial aggregation reduces detectable local human disturbance effects (MAUP effect)
+
+## Spatial Insights
+1) Northern forests: habitat dominates deer density
+2) Agricultural south: human infrastructure strongly influences distribution
+3) Snow depth consistently suppresses population across all regions
+4) Road effects are spatially context-dependent: Forest: edge attraction / Farmland: disturbance avoidance
+
+## Limitations
+1) Single-year cross-sectional dataset (no temporal dynamics)
+2) Road metrics do not include traffic intensity
+3) Hunting data is regulatory proxy, not actual harvest
+4) MAUP effects remain due to administrative zoning
+5) Missing ecological variables (terrain, disease, land ownership)
+
+## Skills Demonstrated
+1) Spatial econometric modeling (OLS / GWR / MGWR)
+2) Multi-scale spatial analysis (MAUP evaluation)
+3) Remote sensing feature engineering (NLCD-derived indices)
+4) Spatial statistics (Moran’s I, LISA)
+5） Geospatial data engineering (vector + raster integration)
+6） Model diagnostics & spatial validation
+
+## Future Work
+1) Temporal MGWR / panel spatial models
+2) Integration of traffic volume + actual harvest data
+3) Multi-grid spatial comparison (reduce MAUP bias)
+4) WebGIS dashboard for wildlife management decision support
+5) Extend framework to other ungulate species
