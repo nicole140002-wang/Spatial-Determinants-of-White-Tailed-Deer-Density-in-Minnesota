@@ -5,14 +5,16 @@
 This project is a multi-scale spatial modeling study investigating the drivers of white-tailed deer density across Minnesota, USA using OLS, GWR, and MGWR regression frameworks.
 
 It compares how ecological, climatic, and anthropogenic factors influence deer distribution under two spatial management scales:
-<p align="center">**DPA (Deer Permit Areas, fine-scale ~106 units)**    </p>
+<p align="center">DPA (Deer Permit Areas, fine-scale ~106 units)</p>
 <p align="center">
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/b77acdd9-b027-485b-ab96-e6e49c46ac0b" /> 
 </p>
-**DMU (Deer Management Units, coarse-scale ~23 units)**   
 
+<p align="center">DMU (Deer Management Units, coarse-scale ~23 units)</p>
+
+<p align="center">
 <img width="300" height="300" alt="dmu" src="https://github.com/user-attachments/assets/2e4fa0de-a9dd-451b-a438-d28b918af6e5" />
-
+</p>
 
 The study highlights how spatial scale (MAUP) and spatial non-stationarity affect ecological interpretation and wildlife management decisions.
 
