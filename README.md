@@ -63,10 +63,28 @@ The study highlights how spatial scale (MAUP) and spatial non-stationarity affec
 2) Proxy for survival constraint
 
 #### 3.Human Disturbance
-1) Road accessibility (distance-based metric)
+Road accessibility (distance-based metric)
 
 #### 4.Management Pressure
-1) Hunting bag limits (ordinal variable 1–6)
+Hunting bag limits (ordinal variable 1–6)
 
 ## Analytical Workflow
+#### 1. Data Preprocessing
+1) CRS harmonization (EPSG:26915)
+2) Spatial clipping to Minnesota boundary
+3) Zonal aggregation to DPA / DMU
+4) KNN imputation for missing values
+5) Multicollinearity screening (VIF < 5)
+
+#### 2. Exploratory Spatial Analysis (ESDA)
+1) Global Moran’s I (spatial clustering detection)
+2) Local Indicators of Spatial Association (LISA)
+3) Correlation and multicollinearity analysis
+
+<p align="center"> Local GWR coefficients for four predictors at the DPA scale </p>
+<p align="center"> 
+<img width="300" height="300" alt="local coefficients" src="https://github.com/user-attachments/assets/29b72642-f9d6-4fbb-aaeb-7b9dc746ed71" />
+</p>
+
+## Spatial Regression Models
 
