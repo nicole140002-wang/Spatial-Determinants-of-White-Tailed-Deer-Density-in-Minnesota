@@ -85,10 +85,13 @@ Hunting bag limits (ordinal variable 1–6)
 <p align="center"> Local GWR coefficients for four predictors at the DPA scale </p>
 <p align="center"> 
 <img width="300" height="300" alt="local coefficients" src="https://github.com/user-attachments/assets/29b72642-f9d6-4fbb-aaeb-7b9dc746ed71" />  
-
-<img width="300" height="300" alt="Local MGWR coefficients" src="https://github.com/user-attachments/assets/1d052a3e-27f1-415b-b7d0-4e01db6f5042" />
-
 </p>
+
+<p align="center"> Local MGWR coefficients for distance to roads </p>
+<p align="center">
+<img width="300" height="300" alt="Local MGWR coefficients" src="https://github.com/user-attachments/assets/1d052a3e-27f1-415b-b7d0-4e01db6f5042" />
+</p>
+
 
 ## Spatial Regression Models 
 
