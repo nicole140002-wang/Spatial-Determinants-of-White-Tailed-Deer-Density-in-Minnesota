@@ -8,9 +8,9 @@ It compares how ecological, climatic, and anthropogenic factors influence deer d
 
 ·**DPA (Deer Permit Areas, fine-scale ~106 units)**   
 ·**DMU (Deer Management Units, coarse-scale ~23 units)**   
-
+<p align="center">
 <img width="450" height="450" alt="image" src="https://github.com/user-attachments/assets/b77acdd9-b027-485b-ab96-e6e49c46ac0b" />  
-
+</p>
 The study highlights how spatial scale (MAUP) and spatial non-stationarity affect ecological interpretation and wildlife management decisions.
 
 ## Research Objectives
