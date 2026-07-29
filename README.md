@@ -2,21 +2,8 @@
 ### OLS | GWR | MGWR Comparative Spatial Analysis
 
 ## Overview
-This project is a multi-scale spatial modeling study investigating the drivers of white-tailed deer density across Minnesota, USA using OLS, GWR, and MGWR regression frameworks.
-
-It compares how ecological, climatic, and anthropogenic factors influence deer distribution under two spatial management scales:
-<p align="center">DPA (Deer Permit Areas, fine-scale ~106 units)</p>
-<p align="center">
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/b77acdd9-b027-485b-ab96-e6e49c46ac0b" /> 
-</p>
-
-<p align="center">DMU (Deer Management Units, coarse-scale ~23 units)</p>
-
-<p align="center">
-<img width="300" height="300" alt="dmu" src="https://github.com/user-attachments/assets/2e4fa0de-a9dd-451b-a438-d28b918af6e5" />
-</p>
-
-The study highlights how spatial scale (MAUP) and spatial non-stationarity affect ecological interpretation and wildlife management decisions.
+Integrated land-cover, climate, road-accessibility and wildlife-management data to model environmental factors associated with white-tailed deer density across Minnesota. Compared OLS, GWR and MGWR models across 106 Deer Permit Areas and 23 Deer Management Units, identifying spatially varying relationships and assessing sensitivity to geographic aggregation.
+Applied Moran’s I and LISA to evaluate spatial clustering and residual autocorrelation; MGWR improved model fit at the finer DPA scale from R2=0.63 to R2=0.81. Communicated regional patterns and model results through coefficient maps, spatial-cluster maps and statistical visualisations to support ecological interpretation.
 
 ## Research Objectives
 1) Identify key drivers of deer density across Minnesota
