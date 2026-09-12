@@ -22,6 +22,9 @@ Applied Moran’s I and LISA to evaluate spatial clustering and residual autocor
 4) Feature Engineering: Raster + vector spatial aggregation
 5) CRS: EPSG:26915
 
+All analysis was performed in **ArcGIS Pro** (Spatial Statistics toolbox: OLS, GWR, MGWR, Spatial Autocorrelation — Moran's I / LISA); the workflow is described above and key outputs are shown below.
+
+
 ## Data Sources
 
 | Component            | Source               | Description                  |
@@ -94,15 +97,22 @@ Hunting bag limits (ordinal variable 1–6)
 2) Captures hierarchical spatial processes
 
 ## Model Comparison (Key Results)
-#### 1. DPA Scale (Fine Resolution)
-1) OLS: R² ≈ 0.63 → Significant residual spatial autocorrelation
-2) GWR: R² ≈ 0.72 → Reduced spatial clustering in residuals
-3) MGWR: R² ≈ 0.81 (best model) → No significant residual spatial autocorrelation
 
-**Key Finding:**
-Road distance = local-scale driver
-Habitat & snow = global-scale drivers
-Hunting pressure = broad-scale management driver
+| Model | Scale | R² | Residual spatial autocorrelation |
+|---|---|---|---|
+| OLS | DPA (106 areas) | ≈ 0.63 | Significant |
+| GWR | DPA (106 areas) | ≈ 0.72 | Reduced clustering |
+| **MGWR** | DPA (106 areas) | **≈ 0.81** | **Not significant** |
+| OLS | DMU (23 units) | ≈ 0.78 | Smoothed |
+| MGWR | DMU (23 units) | Limited improvement | Largely smoothed |
+
+**Key findings:**
+
+- **Road distance** = local-scale driver (spatially varying coefficients)
+- **Habitat & snow** = global-scale drivers
+- **Hunting pressure** = broad-scale management driver
+- Spatial aggregation (DPA → DMU) reduces detectable local human-disturbance effects — a classic **MAUP** effect.
+
 
 #### 2. DMU Scale (Coarse Resolution)
 1) OLS already performs well (R² ≈ 0.78)
@@ -130,8 +140,8 @@ Spatial aggregation reduces detectable local human disturbance effects (MAUP eff
 2) Multi-scale spatial analysis (MAUP evaluation)
 3) Remote sensing feature engineering (NLCD-derived indices)
 4) Spatial statistics (Moran’s I, LISA)
-5） Geospatial data engineering (vector + raster integration)
-6） Model diagnostics & spatial validation
+5) Geospatial data engineering (vector + raster integration)
+6) Model diagnostics & spatial validation
 
 ## Future Work
 1) Temporal MGWR / panel spatial models
