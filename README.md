@@ -142,6 +142,4 @@ After aggregation to the DMU scale, residual autocorrelation and local heterogen
 - **Data:** NLCD 2021, MNDNR (deer population model, snow atlas, regulations), MnDOT road network, Minnesota Geospatial Commons
 - **Raster Processing:** resampling, reclassification, distance decay, ISO Cluster classification, raster algebra
 
-**Full report:** the complete 84-page report with literature review, detailed appendices (HSI workflow, snow processing, model diagnostics) and references is available here: **[GEOG693_Final_Report.pdf](GEOG693_Final_Report.pdf)**
-
 **Questions or feedback? Reach me at nicole140002@gmail.com**
