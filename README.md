@@ -34,11 +34,10 @@ Applied Moran’s I and LISA to evaluate spatial clustering and residual autocor
 | Administrative Units | Minnesota GIS Portal | DPA / DMU boundaries         |
 
 
-<p align="center"> Spatial distribution of white-tailed deer density across DPAs in 2021</p> 
-
 <p align="center">
-<img width="300" height="300" alt="deer_density" src="https://github.com/user-attachments/assets/e82896c4-d8a6-4bb4-8302-de2386996af5" />
+  <img width="750" alt="deer_density" src="https://github.com/user-attachments/assets/e82896c4-d8a6-4bb4-8302-de2386996af5" />
 </p>
+<p align="center"><em>Figure 1. Spatial distribution of white-tailed deer density across DPAs in 2021.</em></p>
 
 ## Feature Engineering
 #### 1. Habitat Suitability Index (HSI)
